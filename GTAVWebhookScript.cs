@@ -119,7 +119,7 @@ public class GTAVWebhookScript : Script
                 {
                     try
                     {
-                        while (spawnedVehicles.Count > 0)
+                        while (spawnedVehicles.Count > 5)
                         {
                             Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
                             spawnedVehicles[0].Delete();
